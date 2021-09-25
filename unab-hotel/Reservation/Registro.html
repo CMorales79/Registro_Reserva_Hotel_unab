@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+  </head>
+
+  <body>
+    <header><h1 id="Titulo">Iniciar Sesión</h1></header>
+    <form action="/Registro" method="POST">
+      <input type="hidden" id="Cédula" name="Cédula" value="600" />
+      <section>
+        <fieldset>
+          <legend><h2>Registro de Usuario</h2></legend>
+          <label for=""
+            ><h2>Bienvenido a la página de Registro del Hotel bbb</h2></label
+          >
+          <label>Usuario</label>
+          <input
+            type="email"
+            id="Usuario"
+            name="Usuario"
+            size="40"
+            placeholder="Ingrese su nombre de Usuario si ya lo tiene"
+            tabindex="1"
+            required
+          />
+          <br /><br />
+          <label>Contraseña</label>
+          <input
+            type="password"
+            id="password"
+            name="Pasword"
+            size="45"
+            placeholder="Ingrese su contraseña, debe contener letras y números"
+          />
+          <br /><br />
+          <button type="submit">Registrar</button>
+        </fieldset>
+      </section>
+    </form>
+  </body>
+</html>
