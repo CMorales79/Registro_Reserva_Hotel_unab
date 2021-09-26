@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Servicios Registro</title>
+  </head>
+
+  <body>
+    <header><h1 id="Título">Servicios a  Registrar</h1></header>
+    
+    
+    <form action="/Registro" method="POST" autocomplete="off">
+      <input type="hidden" id="Cédula" name="Cédula" value="600">
+
+      <section>
+      <fieldset>  
+        <legend><h2> Servicio Solicitado </h2></legend>
+      
+
+      <label  for="fecha Ingreso"><h3>Fecha de Ingreso</label> &nbsp; &nbsp; 
+     
+      <label for="Fecha Salida">Fecha de Salida</label><br />
+      <input
+        type="date"
+        id="Fecha"
+        name="Fecha de Ingreso"
+        size="60"
+        placeholder="Fecha de Ingreso"
+        tabindex="1"
+        required
+      />
+
+      &nbsp; &nbsp;
+      <input
+        type="date"
+        id="Fecha"
+        name="Fecha de Salida"
+        size="60"
+        placeholder="Fecha de Salida"
+        tabindex="2"
+        required
+      />
+      <br /><br />
+
+      <label class="Título" for="Número Personas">Número de Personas</label> <br />
+      <label for="Adultos">Adultos</label><br />
+      <input
+        type="checkbox"
+        id="Adultos"
+        name="Tipo de Persona"
+        tabindex="3"
+        required
+      />
+      
+      <input
+        type="number"
+        id="Número Adultos"
+        name="Número Adultos"
+        size="10"
+        placeholder="Numero"
+        tabindex="4"
+        required
+      />
+      <br /><br />
+
+      <label for="Niños">Niños</label><br />
+      <input
+        type="checkbox"
+        id="Niños"
+        name="Tipo de Persona"
+        tabindex="5"
+        required
+      />
+      <input
+        type="number"
+        id="Número Niños"
+        name="Número Niños"
+        size="10"
+        placeholder="Numero"
+        tabindex="6"
+        required
+      />
+      <br /><br />
+
+      <label class="Título" for="Acomodación">Acomodación</label><br />
+      <label for="Doble">Doble</label><br />
+      <input
+        type="checkbox"
+        id="Doble"
+        name="Acomodación"
+        tabindex="7"
+        required
+      />
+      <input
+        type="number"
+        id="Número Habitaciones"
+        name="Número Habotaciones"
+        placeholder="Cantidad"
+        size="10"
+        tabindex="8"
+        required
+      />
+      <br /><br />
+
+      <label for="Triple">Triple</label><br />
+      <input
+        type="checkbox"
+        id="Triple"
+        name="Acomodación"
+        tabindex="9"
+        required
+      />
+      <input
+        type="number"
+        id="Número Habitaciones"
+        name="Número Habotaciones"
+        placeholder="Cantidad"
+        size="10"
+        tabindex="10"
+        required
+      />
+      <br /><br />
+
+      <label for="Sencilla">Sencilla</label><br />
+      <input
+        type="checkbox"
+        id="Sencilla"
+        name="Acomodación"
+        tabindex="11"
+        required
+      />
+      <input
+        type="number"
+        id="Número Habitaciones"
+        name="Número Habotaciones"
+        placeholder="Cantidad"
+        size="11"
+        tabindex="12"
+        required
+      />
+      <br><br>
+      <label class="Título" for="Tipo Habitación">Tipo de Habitación</label><br />
+      
+      <label for="Estándar">Estándar</label><br />
+      <input
+      
+        type="checkbox"
+        id="Estándar"
+        name="Tipo Habitación"
+        tabindex="13"
+        
+      />
+      <input
+        type="number"
+        id="Número Habitaciones"
+        name="Número Habitaciones"
+        placeholder="Cantidad"
+        size="10"
+        tabindex="14"
+        
+      />
+      <br /><br />
+
+      <label for="Junior">Junior</label><br />
+      <input
+      
+        type="checkbox"
+        id="Junior"
+        name="Tipo de Habitación"
+        tabindex="15"
+        
+      />
+      <input
+        type="number"
+        id="Número Habitaciones"
+        name="Número Habotaciones"
+        placeholder="Cantidad"
+        size="10"
+        tabindex="16"
+         
+      />
+       <br><br>
+
+       <label for="Suite">Suite</label><br />
+      <input
+        type="checkbox"
+        id="Suite"
+        name="Tipo de Habitación"
+        tabindex="17" 
+        
+      />
+      <input
+        type="number"
+        id="Número Habitaciones"
+        name="Número Habotaciones"
+        placeholder="Cantidad"
+        size="10"
+        tabindex="18"
+        
+        />
+        <br><br/>
+        <Label for="Servicios">Servicios Adicionales</Label><br>
+      <select name="Servicios" id="Servicios" tabindex="19">
+      
+    
+      <option value="Spa" >Spa</option>
+      <option value="Restaurante" >Restaurante</option>
+      </select><br><br>
+      <label for="Observaciones">Observaciones</label><br>
+      <textarea name="Observaciones" id="Observaciones" cols="40" rows="8"></textarea>
+
+
+      <br /><br />
+      <button type="submit">Guardar</button> &nbsp;
+      <button type="reset">Cancelar</button>
+      </fieldset>
+     </section>
+    </form>
+  </body>
+</html>

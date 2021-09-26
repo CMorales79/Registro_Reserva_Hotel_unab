@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Datos Usuarios</title>
+  </head>
+
+  <body>
+    <section>
+      <h1 id="Titulo">Datos Personales Usuarios Hotel bbbb</h1>
+   
+    <form action="" method="POST" autocomplete="off">
+      <table border="1" cellspacing="0" whidth="70%">
+        <thead>
+            <tr>
+                <th width="10%" >Tipo de Documento</th>
+                <th width="5%" >Número de Documento</th>
+                <th width="15%" >Nombre</th>
+                <th width="15%" >Apellido</th>
+                <th width="15%" >Número de teléfono</th>
+                <th width="20%" >e-mail</th>
+                <th width="5%"> Adulto/Niño <br>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><select name="Tipo Documento" id="Tipo Documento"><option value="Cedula">Cedula</option><option value="Tarjeta">Tarjeta de Identidad</option><option value="Registro Civil">Registro Civil</option></select></td>
+                <td><input type="telf" id="Documento" name="Documento" size="30" required></td>
+                <td><input type="text" id="nombre" name="Nombre"  size="37" required> </td>
+                <td><input type="text" id="Apellido" name="Apellido" size ="37" required ></td>
+                <td><input type="tel"  id="teléfono" name="teléfono" size="25" required ></td>
+                <td><input type="email" id="e-mail"  name="e-mail" size="35"></td>
+                <td align="center"><input type="radio" id="Edad" name="Edad" size="10%" ><input type="radio" id="Edad" name="Edad" size="10%" >  </td>
+            </tr>
+
+        </tbody>
+      </table>
+    </section>
+    </form> <br>
+    <button type="submit">Guardar</button>
+  </body>
+</html>
