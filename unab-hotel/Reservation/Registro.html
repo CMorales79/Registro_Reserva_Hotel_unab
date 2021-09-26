@@ -9,7 +9,7 @@
 
   <body>
     <header><h1 id="Titulo">Iniciar Sesión</h1></header>
-    <form action="/Registro" method="POST">
+    <form action="servicio_registro.html" method="POST">
       <input type="hidden" id="Cédula" name="Cédula" value="600" />
       <section>
         <fieldset>
@@ -35,9 +35,10 @@
             name="Pasword"
             size="45"
             placeholder="Ingrese su contraseña, debe contener letras y números"
+            tabindex="2"
           />
           <br /><br />
-          <button type="submit">Registrar</button>
+          <button type="submit" tabindex="3">Registrar</button>
         </fieldset>
       </section>
     </form>
