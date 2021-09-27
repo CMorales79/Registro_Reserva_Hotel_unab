@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crear Huespedes</title>
+  </head>
+  <body>
+    <section>
+      <h1 id="Titulo">Datos Personales Huespedes Hotel bbbb</h1>
+      <fieldset>
+        <legend>Datos Básicos</legend>
+        <form
+          action="Registro.html"
+          method="POST"
+          autocomplete="on"
+          tabindex="1"
+        >
+          <label for="">Seleccione el tipo de Huesped</label><br />
+          <select name="Tipo Huesped" id="Tipo Huesped" tabindex="2" required>
+              <option value="0">Seleccione una opción</option>
+              <option value="1">Adulto</option>
+              <option value="2">Niño</option>
+              <option value="3">Infante</option>
+          </select>
+          <br /><br />
+          <label for="">Seleccione el Tipo de Documento</label><br />
+          <select name="Tipo de Documento" id="Tipo de Documento" tabindex="3" required>
+              <option value="0">Seleccione una opción</option>
+              <option value="1">Cédula</option>
+              <option value="2">Tarjeta de Identidad</option>
+              <option value="3">Registro Civil</option>
+              <option value="4">Pasaporte</option>
+          </select>
+          <br /><br />
+
+          <label for="">Número de Documento</label><br />
+          <input
+            type="number"
+            id="Numero Documento"
+            name="Numero Documento"
+            placeholder="Ingresar Documento"
+            size="60"
+            tabindex="4"
+            required
+          />
+          <br /><br />
+
+          <label for="">Nombres</label><br />
+          <input
+            type="text"
+            id="Nombre"
+            name="Nombre"
+            placeholder="Ingresar solo Nombres"
+            size="60"
+            tabindex="5"
+            required
+          />
+          <br /><br />
+
+          <label for="">Apellidos</label><br />
+          <input
+            type="text"
+            id="Apellido"
+            name="Apellido"
+            placeholder="Ingresar solo Apellidos"
+            size="60"
+            tabindex="6"
+            required
+          />
+          <br /><br />
+
+          <label for="">Número de Télefono</label><br />
+          <input
+            type="tel"
+            id="teléfono"
+            name="teléfono"
+            placeholder="Ingresar Numero de teléfono"
+            size="60"
+            tabindex="7"
+            required
+          />
+          <br /><br />
+
+          <label for="">Dirección de Resisdencia</label><br/>
+          <textarea
+            name="Dirección"
+            id="Dirección"
+            cols="60"
+            rows="2"
+            tabindex="8"
+            required
+          ></textarea>
+          <br></br>
+
+          <label for="">Número de Contacto de Emergencia</label><br />
+          <input
+            type="tel"
+            id="Contacto Emergencia"
+            name="Contacto Emergencia"
+            placeholder="Ingresar Numero de Contacto"
+            size="60"
+            tabindex="9"
+            required
+          />
+          <br /><br />
+
+          <button type="submit" >Guardar</button>
+          <button type="reset" >Cancelar</button>
+        </form>
+      </fieldset>
+    </section>
+  </body>
+</html>
