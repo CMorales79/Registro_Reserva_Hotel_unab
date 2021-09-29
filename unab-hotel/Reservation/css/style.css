@@ -1,0 +1,36 @@
+* {
+  margin-left: 0.50%;
+  background-image: image();
+}
+
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: brown;
+  text-align: left;
+  font-size: 25px;
+}
+
+fieldset {
+  border-radius: 6mm;
+  size: 70px;
+  width: 30%;
+  border-color: rosybrown;
+  margin-top: -10mm;
+}
+.fondo {
+  background-color: skyblue;
+}
+.negrilla {
+  font-style: italic;
+  font-weight: bold;
+}
+button {
+  border-radius: 1mm;
+  border-bottom-style: outset;
+  color: whitesmoke;
+  background-color: seagreen;
+}
+.dato_usuario{
+        position:relative;
+        left: 6mm;
+}

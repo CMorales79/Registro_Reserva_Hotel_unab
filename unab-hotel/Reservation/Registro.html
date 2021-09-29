@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Registro</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
 
   <body>
@@ -12,13 +13,16 @@
     <form action="servicio_registro.html" method="POST" autocomplete="on">
       <input type="hidden" id="Cédula" name="Cédula" value="600" />
       <section>
-        <fieldset>
+        <fieldset class="fondo">
           <legend><h2>Registro de Usuario</h2></legend>
           <label for=""
-            ><h2>Bienvenido a la página de Registro del Hotel bbb</h2></label
+            ><h3>
+              Bienvenido a la página de Registro del Hotel Brand256
+            </h3></label
           >
-          <label>Usuario</label>
+          <label class="negrilla">Usuario</label>
           <input
+            class="dato_usuario"
             type="email"
             id="Usuario"
             name="Usuario"
@@ -28,7 +32,7 @@
             required
           />
           <br /><br />
-          <label>Contraseña</label>
+          <label class="negrilla">Contraseña</label>
           <input
             type="password"
             id="password"
