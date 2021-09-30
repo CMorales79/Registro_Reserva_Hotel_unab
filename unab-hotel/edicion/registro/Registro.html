@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registro</title>
+    <!--<link rel="stylesheet" href="css/style.css" />-->
+  </head>
+  <body>
+    <div>
+      <form action="servicio_registro.html" method="POST" autocomplete="on">
+        <input type="hidden" id="Cédula" name="Cédula" value="600" />
+        <!--<div class="div1">
+          <img
+            src="https://robinsonhd.com/wp-content/uploads/2019/09/img-2-hoteles-lobbies.jpg"
+            width="1540"
+            height="660"
+          />
+        </div>-->
+
+        <section>
+          <fieldset class="fondo">
+            <h2 class="negrilla">Registro de Usuario</h2>
+            <label for=""
+              ><h3>
+                Bienvenido a la página de Registro del Hotel Brand256
+              </h3></label
+            >
+            <label class="negrilla">Usuario</label>
+            <input
+              class="dato_usuario"
+              type="email"
+              id="Usuario"
+              name="Usuario"
+              size="40"
+              placeholder="Ingrese su nombre de Usuario "
+              tabindex="1"
+              required
+            />
+            <br /><br />
+            <label class="negrilla">Contraseña</label>
+            <input
+              type="password"
+              id="password"
+              name="Pasword"
+              size="45"
+              placeholder="Ingrese su contraseña, debe contener letras y números"
+              tabindex="2"
+            />
+            <br /><br />
+            <button type="submit" tabindex="3">Registrar</button>
+          </fieldset>
+        </section>
+      </form>
+    </div>
+  </body>
+</html>
