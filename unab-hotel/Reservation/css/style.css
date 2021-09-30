@@ -1,5 +1,5 @@
 * {
-  margin-left: 0.50%;
+  margin-left: 0.5%;
   background-image: image();
 }
 
@@ -30,7 +30,10 @@ button {
   color: whitesmoke;
   background-color: seagreen;
 }
-.dato_usuario{
-        position:relative;
-        left: 6mm;
+.dato_usuario {
+  position: relative;
+  left: 6mm;
+}
+.main-content{
+    background-image: url(/unab-hotel/img/bedroom-416062_1280.jpg);
 }
