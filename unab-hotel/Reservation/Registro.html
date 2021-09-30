@@ -7,44 +7,52 @@
     <title>Registro</title>
     <link rel="stylesheet" href="css/style.css" />
   </head>
-
   <body>
-    <header><h1 id="Titulo">Iniciar Sesión</h1></header>
-    <form action="servicio_registro.html" method="POST" autocomplete="on">
-      <input type="hidden" id="Cédula" name="Cédula" value="600" />
-      <section>
-        <fieldset class="fondo">
-          <legend><h2>Registro de Usuario</h2></legend>
-          <label for=""
-            ><h3>
-              Bienvenido a la página de Registro del Hotel Brand256
-            </h3></label
-          >
-          <label class="negrilla">Usuario</label>
-          <input
-            class="dato_usuario"
-            type="email"
-            id="Usuario"
-            name="Usuario"
-            size="40"
-            placeholder="Ingrese su nombre de Usuario "
-            tabindex="1"
-            required
+    <div>
+      <form action="servicio_registro.html" method="POST" autocomplete="on">
+        <input type="hidden" id="Cédula" name="Cédula" value="600" />
+        <div class="div1">
+          <img
+            src="https://robinsonhd.com/wp-content/uploads/2019/09/img-2-hoteles-lobbies.jpg"
+            width="1540"
+            height="660"
           />
-          <br /><br />
-          <label class="negrilla">Contraseña</label>
-          <input
-            type="password"
-            id="password"
-            name="Pasword"
-            size="45"
-            placeholder="Ingrese su contraseña, debe contener letras y números"
-            tabindex="2"
-          />
-          <br /><br />
-          <button type="submit" tabindex="3">Registrar</button>
-        </fieldset>
-      </section>
-    </form>
+        </div>
+
+        <section>
+          <fieldset class="fondo">
+            <h2 class="negrilla">Registro de Usuario</h2>
+            <label for=""
+              ><h3>
+                Bienvenido a la página de Registro del Hotel Brand256
+              </h3></label
+            >
+            <label class="negrilla">Usuario</label>
+            <input
+              class="dato_usuario"
+              type="email"
+              id="Usuario"
+              name="Usuario"
+              size="40"
+              placeholder="Ingrese su nombre de Usuario "
+              tabindex="1"
+              required
+            />
+            <br /><br />
+            <label class="negrilla">Contraseña</label>
+            <input
+              type="password"
+              id="password"
+              name="Pasword"
+              size="45"
+              placeholder="Ingrese su contraseña, debe contener letras y números"
+              tabindex="2"
+            />
+            <br /><br />
+            <button type="submit" tabindex="3">Registrar</button>
+          </fieldset>
+        </section>
+      </form>
+    </div>
   </body>
 </html>
