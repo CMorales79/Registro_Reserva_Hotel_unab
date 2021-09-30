@@ -46,3 +46,8 @@ button {
   height: 660px;
   z-index: -2;
 }
+
+.div2{
+  position: relative;
+  right: ;
+}
